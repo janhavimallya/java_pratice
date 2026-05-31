@@ -12,7 +12,7 @@ class Fact
   }
 public static void main(String args[])
 {
-  Scanner S= new Scanner(System.im);
+  Scanner S= new Scanner(System.in);
   System.out.println("enter the number to be computed");
   int n=S.nextInt();
   System.out.println("fact="+fact(n));
